@@ -76,6 +76,10 @@
  
 
     /* main */
+    .greeting{
+        border: solid 5px;
+        background-color: #f7771b;
+    }
     main{
        background-color: rgb(210, 225, 226);
         width: 100%;
