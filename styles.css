@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+  }
+    body{
+    background-color: #eeeeee;
+    }
+    /*estilos generales*/
+    .fuente-clara {color: #eeeeee;}
+
+    .fuente-oscura {color: #22211f;}
+
+    .fuente-acento {color: #b59a61;}
+
+    nav ul li a{
+        color: #eeeeee;
+        
+      }
+
+
+    /* header encabezado*/
+   
+    header {
+        width: 100%;
+        background-color: rgba(34, 33, 31, 0.85);
+        color:  #eeeeee;
+        padding: 20px;
+        position: fixed;
+        top: 0;
+      }
+      
+      header h1.logo {
+          /* aqui se agrego*/
+          display: inline-block;
+        font-size: 35px;
+        font-weight: bold;
+        /* aqui se agrego*/
+        line-height: 80px;
+        padding: 0 50px;
+        
+      }
+      
+      header nav {
+          /* aqui se agrego*/
+        float: right;
+      }
+      
+      nav ul li {
+        /* aqui se agrego*/
+        display: inline-block;  
+        margin-right: 20px;
+        line-height: 80px
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px;
+      }
+      nav a:hover {
+        color: #1bf7de;
+      }
+
+    h1{
+        font-size: 30px;
+        color: #b59a61;
+    }
+   
+  
+ 
+
+    /* main */
+    main{
+       background-color: rgb(210, 225, 226);
+        width: 100%;
+        margin-top: 120px;
+    }
+    .seccion-2 img{
+    width: 100%;
+    }   
+        
+    #seccion-principal .seccion-1{
+    padding: 20px;
+    }   
+    .seccion-1 .parrafo2{
+    padding: 20px 0px;
+    }
+   /*.seccion-1{
+    display: inline-block;
+    }*/
+    section .seccion-1{
+        position: relative;
+        top: 30px;
+        right: 30px;
+    }
+    
+    .button{
+    color: #fff;
+    background-color: #5995da;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5d6063;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    }
+    .contacto{
+    font-style: italic;
+    background-color: #eeb75a;
+
+    }
+    .button:hover{
+        color: rgb(143, 30, 30);
+        background-color: rgb(45, 160, 70);
+    }
+    .button:active{
+        background-color: rgb(210, 206, 16);
+        color: rgb(0, 0, 0);
+    }
+    #box1{
+        border: groove 1em rgb(5, 5, 5);  
+        border-radius: 2em;
+        width: 500px;
+        height: 450px;
+        background-color:#ffffff;
+        padding: 10PX;
+        float: left;
+        
+    }
+    #box2{
+        border: groove 1em rgb(5, 5, 5);  
+        border-radius: 2em;
+        width: 500px;
+        height: 450px;
+        background-color:#ffffff;
+        padding: 10PX;
+        float:left;
+        
+    }
+    .posicion{
+        clear: none;
+       
+       
+    }
+    
+
+    /*ejemplo*/
+    .parrafo1{
+        font-size: 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        
+        
+    }
+    .card-container{
+        margin: 5px;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        position:relative;
+    }
+    .color1{
+        background-color:rgba(114, 50, 122, 0.591);
+    }
+    .card{
+        /*border: 1px solid  #000000;*/
+        border-radius: 5%;
+        height: 300px;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column; /* para que queden encima las imagenes*/
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .image-container{
+       /*border: 1px solid  #000000;*/
+        border-radius: 10%;
+        width: 70%;
+        height: 50%;
+    }
+    .text{
+        font-size: 32px;
+        width: 0%;
+        text-align: center;
+    }
+     section p{
+        margin: 10px;
+        padding: 10px;
+    
+    }
+    .img1{
+        width: 300px;
+        height: 300px;
+        
+    }
+    .color1{
+        background-color:rgb(175, 227, 178);
+    }
+    @media (min-width:768px){
+        .card-container{
+            width: 45%;
+        }
+    }
+    @media (min-width:1024px){
+        .card-container{
+            width: 30%;
+        }
+    }
+    
+
+    /* footer*/
+    footer{
+   width: 100%;
+   padding: 25px;
+   background-color:  #22211f;
+   color: #f0f0f0;
+   clear: both;
+    }
+
+    footer a{
+    color: #f0f0f0;
+    text-decoration: none;
+    }
+/* pendiente de iniciar paso 13*/
+
